@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+
+        <title>
+            Проект университета
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div id="header">
+                <img id="logotype" src="logotype.svg" alt="FireSwine">
+                <h1>
+                    Начало моей работы.
+                </h1>
+            </div>
+        </header>
+
+        <nav>
+            <div id="navigation">
+                <a class="btn" href="#ssilki">Гиперссылки</a>
+                <a class="btn" href="#table">HTML таблица</a>
+                <a class="btn" href="#form">HTML форма</a>
+                <a class="btn" href="#Podval">Подвал</a>
+            </div>
+        </nav>
+
+        <main>
+
+                <ol id="ssilki">
+                    <li>
+                        <a href="http://example.com">
+                            Пример хттп
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://example.com">
+                            Пример хтппс
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ftp://example.com/file.txt">
+                            Пример фтп без авторизации
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ftp://login:parol@example.com/file.txt">
+                            Пример фтп с авторизацией
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://example.com/dog#point1">
+                            Ссылка на фрагмент страницы некоторого сайта
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#point1">
+                            Ссылка на фрагмент текущей страницы
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://example.com/dog?breed=1&breed=2">
+                            Ссылка с двумя параметрами в URL
+                        </a>
+                    </li>
+                    <li>
+                        <nav>
+                            <a href="#">
+                                Новерх
+                            </a>
+                            |
+                            <a href="#bottom">
+                                Внуз
+                            </a>
+                            |
+                            <a href="#form" title="Начало формы">
+                                Форма
+                            </a>
+                        </nav>
+                    </li>
+                    <li>
+                        <a>
+                            ссылка без href
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Ссылка с пустым href
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://example.com" rel="nofollow">
+                            Ссылка запрещающая переход поисковикам
+                        </a>
+                    </li>
+                    <li>
+                        <!--noindex-->
+                        <a href="https://example.com" >
+                            Ссылка запрещающая индексацию поисковиками
+                        </a>
+                        <!--/noindex-->
+                    </li>
+                    <li>
+                        <p>
+                            А вот здесь у нас
+                            <a href="https://example.com">
+                                Контекстная ссылка
+                            </a>
+                            Настоящая
+                        </p>
+                    </li>
+                    <li>
+                        <a href="https://example.com">
+                            <img src="hooman.png" alt="Ссылка-изображение">
+                        </a>
+                    </li>
+                    <li>
+                        <map name="CarpetOandOJapanese" >
+                            <area href="https://example.com/a1" alt="Carpet" shape="rect" coords="2,2,184,50">
+                            <area href="https://example.com/a2" alt="LeftJapanese" shape="circle" coords="24,84,22">
+                            <area href="https://example.com/a3" alt="RightJapanese" shape="circle" coords="158,80,23">
+                        </map>
+                        <img src="map.png" alt="CarpetAndJapanese" usemap="#CarpetOandOJapanese">
+                    </li>
+                    <li>
+                        <a href="about">
+                            Относительная ссылка на страницу в текущем каталоге
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about/page1.html">
+                            Относительная ссылка на страницу в каталоге about
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../page2.html">
+                            Относительная ссылка на страницу в каталоге выше
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../page3.html">
+                            Относительная ссылка на страницу двумя каталогами выше
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            Сокращённая ссылка на главную
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/page4.html">
+                            Сокращённая ссылка на внутреннюю
+                        </a>
+                    </li>
+                </ol>
+            
+                <table id="table">
+                    <thead>
+                    <tr class="even">
+                        <td>Колонка 1</td>
+                        <td>Колонка 2</td>
+                        <td>Колонка 3</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="odd">
+                        <td rowspan="2">Ячейка c rowspan</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr class="even">
+                        <td colspan="2">21 и 22</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>31</td>
+                        <td colspan="2">32 и 33</td>
+                    </tr>
+                    <tr class="even">
+                        <td colspan="3">41, 42 и 43</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <form action="/" method="POST" id="form">
+                    <label>
+                        Имя ваше (можно и наше):<br >
+                        <input name="NameOfForm" placeholder="">
+                    </label><br >
+                
+                    <label>
+                        Ваш Email:<br >
+                        <input name="EmailOfForm" type="email" placeholder="">
+                    </label><br >
+
+                    <label>
+                        Ваша дата рождения:<br >
+                        <input name="BirthdayOfForm" type="date" value="1980-01-01">
+                    </label><br >
+
+                    Пол:<br>
+                    <label>
+                        Мужской
+                        <input name="Gender" type="radio" value="Male" checked>
+                    </label><br >
+                    <label>
+                        Женский
+                        <input name="Gender" type="radio" value="Female">
+                    </label><br >
+
+                    Количество конечностей:<br>
+                    <label>
+                        0
+                        <input name="Limbs" type="radio" value="0" checked>
+                    </label>
+                    <label>
+                        1
+                        <input name="Limbs" type="radio" value="1">
+                    </label>
+                    <label>
+                        2
+                        <input name="Limbs" type="radio" value="2">
+                    </label>
+                    <label>
+                        3
+                        <input name="Limbs" type="radio" value="3">
+                    </label>
+                    <label>
+                        4
+                        <input name="Limbs" type="radio" value="4">
+                    </label>
+                    <label>
+                        5
+                        <input name="Limbs" type="radio" value="5">
+                    </label><br >
+
+                    <label>
+                        Сверхспособности:
+                        <br >
+                        <select name="Superpowers[]"
+                        multiple="multiple">
+                        <option value="Sniff" >Нюх</option>
+                        <option value="Hear" >Слух</option>
+                        <option value="Walking" >Ходьба</option>
+                        <option value="Standing" >Стоять</option>
+                        <option value="Copium" selected="selected">Терпеть</option>
+                        </select>
+                    </label><br >
+
+                    <label>
+                        Биография:<br >
+                        <textarea name="Biographuy" placeholder="Расскажите нам о себе"></textarea>
+                    </label><br >
+
+                    С контрактом ознакомлен:<br >
+                    <label><input type="checkbox" checked="checked"
+                        name="Contract" >
+                        Да (Будьте уверены)</label><br >
+
+                    <input type="submit" value="Отправить" >
+
+                </form>
+
+                <div id="bottom"></div>
+        </main>
+    <footer id="Podval">
+        <h2>
+        Maxim 2022
+        </h2>
+    </footer>
+    </body>
+</html>
