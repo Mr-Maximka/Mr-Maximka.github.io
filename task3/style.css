@@ -52,12 +52,21 @@ footer {
 
 #tableform {
     display:flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+}
+#form {
+    order:1;
+}
+#table {
+    order:2;
 }
 
 @media screen and (min-width:800px){
-    #tableform{
-        flex-direction: column;
+    #form {
+        order:2;
+    }
+    #table {
+        order:1;
     }
     #navigation{
         flex-direction: row;
