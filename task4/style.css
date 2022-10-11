@@ -1,17 +1,9 @@
 #logotype {
-    max-width: 10%;
-}
-
-header {
-    width: 100%;
+    max-width: 100%;
 }
 
 #header {
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
     max-width: 960px;
-    margin: 0 auto;
 }
 
 #header img {
@@ -32,47 +24,19 @@ header {
 }
 
 #navigation {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    clear: left;
     max-width:  960px;
-    margin: 0 auto;
 }
 
 main {
     background-color: yellowgreen;
-    margin: 0 auto;
     max-width: 960px;
 }
 
-footer {
-    width: 100%;
+#table{
+    max-width: 400px;
 }
 
-#tableform {
-    display:flex;
-    flex-direction: column;
-}
-#form {
-    order:1;
-}
-#table {
-    order:2;
-}
-
-@media screen and (min-width:800px){
-    #form {
-        order:2;
-    }
-    #table {
-        order:1;
-        align-self:self-start;
-    }
-    #navigation{
-        flex-direction: row;
-        justify-content: center;
-    }
+@media screen and (min-width:576px){
     #header h1{
         font-size: 225%;
     }
