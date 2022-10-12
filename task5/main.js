@@ -13,7 +13,7 @@ function click() {
     } else if (chAmount === null && chCost === null) {
         let intA = parseInt(amount.value);
         let intC = parseInt(cost.value);
-        result.innerHTML = "Я вам насчитал тут: " + intA * intC;
+        result.innerHTML = "Результат проведённых внутренних вычислений в десятичной форме: " + intA * intC;
     } else {
         result.innerHTML = "Некорректные символы в поле";
     }
