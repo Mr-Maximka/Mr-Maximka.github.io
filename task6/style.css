@@ -1,0 +1,8 @@
+main {
+    background-color: yellowgreen;
+    max-width: 960px;
+}
+
+.input {
+    display: none;
+}
