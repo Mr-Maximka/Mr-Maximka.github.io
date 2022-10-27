@@ -16,5 +16,11 @@ main {
   }
 
 .slick-slider img {
-    width: 140px;
+    width: 100px;
+}
+
+@include media-breakpoint-up(md) {
+    .slider img {
+        width: 140px;
+    }
 }
