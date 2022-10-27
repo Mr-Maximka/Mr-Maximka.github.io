@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>
+            Проект университета
+        </title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link href="node_modules/slick-carousel/slick/slick.css" rel="stylesheet">
+        <link href="node_modules/slick-carousel/slick/slick-theme.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="bg-warning px-5">
+        <main>
+            <h3>JS калькулятор</h3>
+            <form>
+                <label>
+                    Количество:<br>
+                    <input id="amount" type="text">
+                </label><br><br>
+                <label>
+                    Стоимость:<br>
+                    <input id="cost" type="text">
+                </label><br><br>
+                <label>
+                    <button type="button" id="btn">Рассчитать</button>
+                </label>
+                <div id="result"></div>
+            </form>
+
+            <form>
+                <select id="product-type">
+                    <option disabled selected>Тип товара</option>
+                    <option value="1">Фрутмотив Груша</option>
+                    <option value="2">Фрутмотив Вишня</option>
+                    <option value="3">Фрутмотив Штрудель с яблоком</option>
+                </select> 
+                <br>
+                <label class="input radio"><input type="radio" name="taste" value="0" checked> Кислый</label>
+                <label class="input radio"><input type="radio" name="taste" value="1"> Сладкий</label>
+                <label class="input checkbox"><input type="checkbox"> Эксклюзивный зимний вкус</label>
+                <br>
+                <input class="input amount" id="amount-2" placeholder="Количество">
+                <p id="result-2"></p>
+            </form>
+
+            <div class="slick-slider">
+                <div>
+                    <img src="cifr/1.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/2.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/3.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/4.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/5.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/6.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/7.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/8.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/9.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/10.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/11.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/12.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/13.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/14.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/15.png" alt="cifr" class="mx-auto">
+                </div>
+                <div>
+                    <img src="cifr/16.png" alt="cifr" class="mx-auto">
+                </div>
+            </div>
+
+            
+        </main>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+        <script src="main.js" defer></script>
+    </body>
+</html>
