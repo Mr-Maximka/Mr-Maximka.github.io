@@ -1,26 +1,17 @@
-body {
-    /* background-color: yellowgreen;  */
-}
-
-main {
-    /**/
-    /* max-width: 960px; */
-}
-
 .input {
     display: none;
 }
-
- .slick-list {
-    margin: 0 150px;
-  }
 
 .slick-slider img {
     width: 100px;
 }
 
-@include media-breakpoint-up(md) {
+@media only screen and (min-width: 768px) {
     .slick-slider img {
         width: 140px;
     }
+
+    .slick-list {
+        margin: 0 150px;
+      }
 }
