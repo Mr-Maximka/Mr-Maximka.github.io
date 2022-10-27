@@ -20,7 +20,7 @@ main {
 }
 
 @include media-breakpoint-up(md) {
-    .slider img {
+    .slick-slider img {
         width: 140px;
     }
 }
