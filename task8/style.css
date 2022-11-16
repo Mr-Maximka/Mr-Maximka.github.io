@@ -30,7 +30,7 @@ main {
 #popup form{
 	width: 100vW;
 	border-width: 3px;
-	background-color:wheat;
+	background-color:lightblue;
 }
 textarea{
 	overflow: auto;
