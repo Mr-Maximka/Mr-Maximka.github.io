@@ -38,7 +38,7 @@ function sendForm(){
     if (name!="" && message!="" && checkbox.checked && validateEmail(email)!=null) {
         let sendRequest = new XMLHttpRequest();
  
-        sendRequest.open('POST', 'https://formcarry.com/s/cB6SsjsbV');
+        sendRequest.open('POST', 'https://formcarry.com/s/yGD__6BrI');
         sendRequest.setRequestHeader('Content-Type', 'application/json');
         sendRequest.setRequestHeader('Accept', 'application/json');
         let popupForm={"name": name,"email": email,"message": message};
