@@ -11,7 +11,7 @@
 	src: url(Nunito-SemiBoldItalic.ttf);
 }
 body {
-	color:#2718dc;
+	color:#20b2aa;
 	font-family:Nunito-Regular;
 }
 main {
@@ -30,7 +30,7 @@ main {
 #popup form{
 	width: 100vW;
 	border-width: 3px;
-	background-color:lightblue;
+	background-color:orange;
 }
 textarea{
 	overflow: auto;
